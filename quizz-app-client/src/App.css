@@ -1,0 +1,17 @@
+
+.form-content {
+    padding: 40px 20px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+    height: 100vh; /* full viewport height */
+}
+.box-login {
+    max-width: 500px;
+    min-width: 500px;
+    background-color: white;
+    
+}
