@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dFl2BgyUwfumesN/eGhBM13mAeZubL+yjwV5hsxW7TF4d2fRFfnI/nN5joeqz1qA8Obltqy7VTYUiVoKYcWjvQ==",
+  "dgSpecHash": "QqsZMaTgG3TpRCWb0PFnPhZ8kA7dFX3YOjl20/vAeadHPhKV47jnjCMuuuQRB1wokkg/3BPPRiuzazm+TaktUg==",
   "success": true,
-  "projectFilePath": "D:\\ProjectNew\\QuizzApp\\QuizzAPI\\QuizzAPI\\QuizAPI.csproj",
+  "projectFilePath": "D:\\ProjectForCV\\QuizApp\\QuizzAPI\\QuizzAPI\\QuizAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VIP\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\VIP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
