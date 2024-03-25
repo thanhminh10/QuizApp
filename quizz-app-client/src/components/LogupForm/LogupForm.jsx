@@ -14,6 +14,8 @@ export default function LogupForm() {
     <div>
         <form className="form-signin" noValidate onSubmit={handleSubmit(onSubmit)}>
         <h1 className="h3 mb-3 font-weight-normal text-center fw-bold">Quizz App</h1>
+        <h3 className="h3 mb-3 font-weight-normal text-center fw-bold">Logup</h3>
+
             <div className="mb-3">
 
               <label htmlFor="inputName" className="sr-only">YourName</label>

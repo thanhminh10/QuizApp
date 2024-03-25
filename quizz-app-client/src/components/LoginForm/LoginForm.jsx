@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form';
 import { ENDPOINTS, createEndpointAPI } from '../../api';
-export default function LogupForm() {
+export default function LoginForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => {
     // Handle form submission, e.g., login logic
@@ -13,21 +13,10 @@ export default function LogupForm() {
   return (
     <div>
         <form className="form-signin" noValidate onSubmit={handleSubmit(onSubmit)}>
-        <h1 className="h3 mb-3 font-weight-normal text-center fw-bold">Quizz App</h1>
-            <div className="mb-3">
-
-              <label htmlFor="inputName" className="sr-only">YourName</label>
-              <input type="text" id="inputName" 
-              className={`form-control ${errors.name ? 'is-invalid' : ''}`}
-              placeholder="Name" 
-              {...register('name', { required: "Name is required", 
-                  maxLength:{
-                    value:100,
-                    message:'Name must be short than 100 character',
-                  }
-              },)}/>
-              {errors.name && <span className='pt-2 text-danger'>{errors.name.message}</span>}
-            </div>
+        <h1 className="h1 mb-3 font-weight-normal text-center fw-bold">Quizz App</h1>
+        <h3 className="h3 mb-3 font-weight-normal text-center fw-bold">Login</h3>
+       
+            
             <div className="mb-3">
 
               <label htmlFor="inputEmail" className="sr-only">Email address</label>

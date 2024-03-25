@@ -2,9 +2,10 @@
 import './App.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import Logup from './pages/Logup/Logup';
-
-
+import { Routes, Route } from "react-router-dom"
+import Login from './pages/LoginPage/Login';
+import Logup from './pages/LogupPage/Logup';
+import Home from './pages/HomePage/Home';
 function App() {
 
   const darkTheme = createTheme({
@@ -19,7 +20,13 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <main>
-        <Logup/>
+        <Routes>
+
+          <Route path="/login" element={ <Login/> } />
+          <Route path="/logup" element={ <Logup/> } />
+
+        </Routes>
+      <Home />
       </main>
   </ThemeProvider>
   )

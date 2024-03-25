@@ -4,11 +4,14 @@ import App from './App.jsx'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import SSRProvider from 'react-bootstrap/SSRProvider';
-
+import { BrowserRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SSRProvider>
-      <App />
-    </SSRProvider>
+    <BrowserRouter>
+      
+      <SSRProvider>
+        <App />
+      </SSRProvider>
+    </BrowserRouter>
   </React.StrictMode>,
 )
