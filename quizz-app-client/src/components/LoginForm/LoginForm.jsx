@@ -47,8 +47,8 @@ export default function LoginForm() {
                 })} />
               {errors.password && <span className='pt-2 text-danger'>{errors.password.message}</span>}
             </div>
-            <div className="mt-3">
-              <button className="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+            <div className="mt-3 d-flex justify-content-center">
+              <button className="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             </div>
         </form>
     </div>

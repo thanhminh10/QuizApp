@@ -16,14 +16,14 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <main>
+     
         <Routes>
           {/* Set the default page as the homepage */}
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logup" element={<Logup />} />
         </Routes>
-      </main>
+     
     </ThemeProvider>
   );
 }
